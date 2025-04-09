@@ -100,6 +100,7 @@ object miAsserter {
 
 Hacer que a roque se le pueda configurar una rutina de entrenamiento.
 Esa rutina debe ser un bloque
+
 Cuando a roque se le diga entrenar, debe ejecutar esa rutina sobre pepita.
 
 Hacer un test que configura una rutina que haga que 

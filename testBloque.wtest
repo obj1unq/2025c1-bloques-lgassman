@@ -1,11 +1,14 @@
 import bloques.*
 
+import bloques.*
+
 describe "pepita volar" {
 
-  test "pepita has initial energy" {
+  test "pepita volar" {
     pepita.volar(10)
     assert.equals(80, pepita.energia())
-    assert.throwsException({pepita.volar(1000)})
+    const miBloqueVolarQueDeberiaExplotar = {pepita.volar(1000)}
+    assert.throwsException(miBloqueVolarQueDeberiaExplotar)
   }
 
   test "mi asserter" {
